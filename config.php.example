@@ -1,0 +1,16 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: User
+ * Date: 28.01.2019
+ * Time: 12:55
+ */
+
+
+$connectionParams = array(
+    'dbname' => '---DBname---',
+    'user' => '---Username---',
+    'password' => '---passwort---',
+    'host' => '---host---',
+    'driver' => 'pdo_mysql',
+);
