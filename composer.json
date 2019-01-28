@@ -1,0 +1,13 @@
+{
+    "name": "4ai/doctrine-demo-4ai",
+    "description": "Doctrine Demo",
+    "type": "project",
+    "license": "\u001b[A\u001b[B\u001b[B",
+    "authors": [
+        {
+            "name": "Maximilian Widter",
+            "email": "m.widter@gmx.at"
+        }
+    ],
+    "require": {}
+}
