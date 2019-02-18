@@ -1,7 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Max-Game
- * Date: 11.02.2019
- * Time: 13:01
- */
+// list_products.php
+require_once "bootstrap.php";
+
+$productRepository = $entityManager->getRepository('HTL3R\doctrineorm\Product');
+$products = $productRepository->findAll();
+
+foreach ($products as $product) {
+    echo sprintf("-%s\n", $product->getName());
+}

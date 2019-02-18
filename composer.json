@@ -10,6 +10,12 @@
         }
     ],
     "require": {
-        "doctrine/dbal": "^2.9"
+        "doctrine/dbal": "^2.9",
+        "doctrine/orm": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "HTL3R\\doctrineorm\\": "src/"
+        }
     }
 }

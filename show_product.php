@@ -1,7 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Max-Game
- * Date: 11.02.2019
- * Time: 13:06
- */
+// show_product.php <id>
+require_once "bootstrap.php";
+
+$id = $argv[1];
+$product = $entityManager->find('HTL3R\doctrineorm\Product', $id);
+
+if ($product === null) {
+    echo "No product found.\n";
+    exit(1);
+}
+
+echo sprintf("-%s\n", $product->getName());
